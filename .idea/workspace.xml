@@ -2,33 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e3770f-6f2b-41eb-b323-3dd7a2e316dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/demo-springboot.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/DemoApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/controller/GlobalExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/controller/HelloController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/dao/impl/UserDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/dao/interfaces/IJpaUserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/dao/interfaces/IUserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/domain/ErrorInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/domain/JpaUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/domain/TestProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/domain/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/exception/MyException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/service/impl/UserSVImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/service/interfaces/IUserSV.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/test/test_javassist/JavassistAOP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/test/test_javassist/JavassistClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/bawy/demo/demo_springboot/test/test_javassist/JavassistLearn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/resources/application-dev.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/resources/application-rm.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/resources/templates/error.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-springboot/src/main/resources/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/demo-springboot/target/" />
@@ -114,8 +87,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo-springboot/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="135">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -196,7 +169,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
+    <option name="x" value="-125" />
+    <option name="y" value="140" />
     <option name="width" value="1934" />
     <option name="height" value="1030" />
   </component>
@@ -666,15 +640,23 @@
       <option name="presentableId" value="Default" />
       <updated>1509980168596</updated>
       <workItem from="1509980169946" duration="286000" />
-      <workItem from="1509981168284" duration="2543000" />
+      <workItem from="1509981168284" duration="2633000" />
     </task>
+    <task id="LOCAL-00001" summary="创建springboot demo">
+      <created>1509983770413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509983770413</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2829000" />
+    <option name="totallyTimeSpent" value="2919000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1934" height="1030" extended-state="0" />
+    <frame x="-125" y="140" width="1934" height="1030" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -716,7 +698,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="创建springboot demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建springboot demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -908,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-springboot/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="135">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
