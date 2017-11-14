@@ -1,0 +1,46 @@
+/**
+ * Created by Administrator on 2017/9/25.
+ */
+module.exports.menu ={
+    "success":true,"errorCode":null,"errorMsg":null,
+    "result":[
+        {
+            "id":1,
+            "parentId":0,
+            "cLevel":1,
+            "isLeaf":1,
+            "name":"首页",
+            "link":"/home",
+            "icon":"home"
+        },
+        {
+            "id":2,
+            "parentId":0,
+            "cLevel":1,
+            "isLeaf":0,
+            "name":"基础管理",
+            "link":"",
+            "icon":"mail",
+            "subMenu":[
+                {
+                    "id":3,
+                    "parentId":2,
+                    "cLevel":2,
+                    "isLeaf":1,
+                    "name":"用户管理",
+                    "link":"/user-manage",
+                    "icon":""
+                },
+                {
+                    "id":4,
+                    "parentId":2,
+                    "cLevel":2,
+                    "isLeaf":1,
+                    "name":"租户管理",
+                    "link":"/aaa-manage",
+                    "icon":""
+                },
+            ]
+        }
+    ]
+}

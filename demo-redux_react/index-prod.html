@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>后台进程资产管控平台</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!--<script src="/assets/require.js"></script>-->
+    <script>
+        window.onload = function() {
+            //对于动态插入的SCRIPT文件，会非阻塞加载并立即执行，所以多个脚本之间的运行顺序是无法保证的（除了Firefox和Opera），
+            // 静态加载能顺序执行，以下实现顺序加载顺序执行，可以通过LABjs或requireJS实现并行加载与顺序执行
+            
+            var userAgent = navigator.userAgent;
+            if (window.applicationCache && (userAgent.indexOf("Firefox") > -1 || userAgent.indexOf("Chrome") > -1 || userAgent.indexOf("Safari") > -1 || userAgent.indexOf("Edge") > -1)) {
+                
+            }else{
+                alert("请使用支持HTML5的Firefox,Chrome,Safari,Edge浏览器");
+            }
+        }
+
+    </script>
+</head>
+<body >
+
+</body>
+</html>
